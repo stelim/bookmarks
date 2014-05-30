@@ -1,0 +1,52 @@
+$page_height: 965px;
+
+$logo_font_size: 5.5em;
+$logo_font_color: #E6E6E6;
+
+$subheadline_font_size: 3.5em;
+$subheadline_font_color: #E6E6E6;
+
+@font-face {
+    font-family: 'Exo2_ExtraBoldItalic';
+    src: url('../fonts/Exo2.0-ExtraBoldItalic.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Exo2_Light';
+    src: url('../fonts/Exo2.0-Light.otf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+#logo {
+    font-family: 'Exo2_ExtraBoldItalic';
+    font-size: $logo_font_size;
+    text-align: right;
+    color: $logo_font_color;
+    margin-right: 50px;
+}
+
+h2 {
+    font-family: 'Exo2_Light';
+    font-size: $subheadline_font_size;
+    color: $subheadline_font_color;
+    margin-left: 50px;
+}
+
+#content2 {
+    height: $page_height;
+    background-image: url(../images/20060916-dsc_0220.jpg);
+}
+
+#content {
+    height: $page_height;
+    background-image: url(../images/20120719-DSC_6360.jpg);
+}
+
+#content3 {
+    height: $page_height;
+    background-image: url(../images/20050828-DSC_0113.jpg);
+}

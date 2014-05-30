@@ -1,15 +1,25 @@
+<!DOCTYPE html>
 <html>
     <head>
+
+    </head>
         <title>Bookmarks</title>
-<script type="text/javascript" data-main="scripts/init.js" src="scripts/require.js"></script>    </head>
+        <link rel="stylesheet" href="stylesheets/bookmarks.css">
+        <script type="text/javascript" data-main="scripts/init.js" src="scripts/require.js"></script>
+    </head>
     <body>
-        <h1>Bookmarks</h1>
-        <h2>my own bookmarks (<span data-bind="text: bookmarks().length"></span>)...</h2>
-        <div id="list_bookmarks">
-            <ul data-bind="foreach: bookmarks">
-                <li><input data-bind="value: name" /> <input data-bind="value: url" /> <a href="#" data-bind="click: $root.removeBookmark">Remove<a</a></li>
-            </ul>
+        <div id="content">
+            <h1 id="logo">B&#9679;&#9679;km&#64;rks</h1>
+            <h2>my own bookmarks (<span data-bind="text: bookmarks().length"></span>)...</h2>
+            <div id="list_bookmarks">
+                <ul data-bind="foreach: bookmarks">
+                    <li><input data-bind="value: name" /> <input data-bind="value: url" /> <a href="#" data-bind="click: $root.removeBookmark">Remove</a></li>
+                </ul>
+            </div>
+            <button data-bind="click: addBookmark">add bookmark</button>
         </div>
-        <button data-bind="click: addBookmark">add bookmark</button>
+        <div id="content2"></div>
+        <div id="content3"></div>
+        <p>the end...</p>
     </body>
 </html>

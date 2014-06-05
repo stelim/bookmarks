@@ -7,14 +7,14 @@ $subheadline_font_size: 3.5em;
 $subheadline_font_color: #E6E6E6;
 
 @font-face {
-    font-family: 'Exo2_ExtraBoldItalic';
+    font-family: 'Exo2_ExtraBoldItalic', Helvetica, sans-serif;
     src: url('../fonts/Exo2.0-ExtraBoldItalic.otf');
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
-    font-family: 'Exo2_Light';
+    font-family: 'Exo2_Light', Helvetica, sans-serif;
     src: url('../fonts/Exo2.0-Light.otf');
     font-style: normal;
     font-weight: bold;

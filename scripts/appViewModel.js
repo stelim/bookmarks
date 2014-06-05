@@ -1,6 +1,6 @@
 // Main viewmodel class
-define(['knockout-3.1.0', 'Bookmark'], function (ko, Bookmark) {
-    return function appViewModel() {
+define(['knockout', 'Bookmark'], function (ko, Bookmark) {
+    return function AppViewModel() {
         var self = this;
         
         self.firstName = ko.observable('Bert');

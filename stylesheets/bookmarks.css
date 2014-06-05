@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Exo2_ExtraBoldItalic';
+  font-family: 'Exo2_ExtraBoldItalic', Helvetica, sans-serif;
   src: url("../fonts/Exo2.0-ExtraBoldItalic.otf");
   font-style: normal;
   font-weight: bold; }
 @font-face {
-  font-family: 'Exo2_Light';
+  font-family: 'Exo2_Light', Helvetica, sans-serif;
   src: url("../fonts/Exo2.0-Light.otf");
   font-style: normal;
   font-weight: bold; }
@@ -23,12 +23,18 @@ h2 {
 
 #content2 {
   height: 965px;
-  background-image: url(../images/20060916-dsc_0220.jpg); }
+  background-image: url(../images/20060916-dsc_0220.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%; }
 
 #content {
   height: 965px;
-  background-image: url(../images/20120719-DSC_6360.jpg); }
+  background-image: url(../images/20120719-DSC_6360.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%; }
 
 #content3 {
   height: 965px;
-  background-image: url(../images/20050828-DSC_0113.jpg); }
+  background-image: url(../images/20050828-DSC_0113.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%; }
